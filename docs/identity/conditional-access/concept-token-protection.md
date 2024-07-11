@@ -89,7 +89,7 @@ The steps that follow help create a Conditional Access policy to require token p
 1. Give your policy a name. We recommend that organizations create a meaningful standard for the names of their policies.
 1. Under **Assignments**, select **Users or workload identities**.
    1. Under **Include**, select the users or groups who are testing this policy.
-   1. Under **Exclude**, select **Users and groups** and choose your organization's emergency access or break-glass accounts. 
+   1. Under **Exclude**, select **Users and groups** and choose your organization's emergency access or break-glass accounts (Do not include External accounts as above). 
 1. Under **Target resources** > **Cloud apps** > **Include** > **Select apps**
    1. Under **Select**, select the following applications supported by the preview:
        1. Office 365 Exchange Online
